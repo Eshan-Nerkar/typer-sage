@@ -8,3 +8,6 @@ def pluralize(count: int, singular: str, plural: str | None = None) -> str:
     if count == 1:
         return f"{count} {singular}"
     return f"{count} {plural or singular + 's'}"
+
+def hello_world(name: str):
+    return f"hello world {name}"
