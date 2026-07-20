@@ -16,6 +16,5 @@ def not_hello_world(name: str):
     return f"Not hello world {name}"
 
 def format_choice_hint(choices):
-    #
     normalized = [str(c) for c in choices]
     return "(" + " | ".join(normalized) + ")"
