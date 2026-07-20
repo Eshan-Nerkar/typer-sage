@@ -10,3 +10,5 @@ def test_app():
     assert result.exit_code == 0
     assert "Hello Camila" in result.output
     assert "Let's have a coffee in Berlin" in result.output
+
+print("add the print statement")
