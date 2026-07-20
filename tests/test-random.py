@@ -11,3 +11,6 @@ def pluralize(count: int, singular: str, plural: str | None = None) -> str:
 
 def hello_world(name: str):
     return f"hello world {name}"
+
+def not_hello_world(name: str):
+    return f"Not hello world {name}"
