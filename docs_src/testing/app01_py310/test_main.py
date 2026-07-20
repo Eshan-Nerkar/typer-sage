@@ -12,3 +12,4 @@ def test_app():
     assert "Let's have a coffee in Berlin" in result.output
 
 print("add the print statement")
+print("testing git hub action")
